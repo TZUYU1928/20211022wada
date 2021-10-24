@@ -1,0 +1,48 @@
+.header__main {
+color:darkblue;
+font-weight: bold;
+padding: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logotext {
+  font-size: 20px;
+}
+
+.container ul{
+  display: flex;
+  list-style: none;
+}
+
+.container li{
+  margin-left: 2rem;
+}
+
+.relative {
+  position: relative;
+}
+
+.relative__img {
+  margin: 50px 0 0 auto;
+  display: block;
+  width: 50%;
+}
+
+.absolute__text {
+  position: absolute;
+  top: 310px;
+  font-size: 70px;
+}
+
+.box {
+  margin: -100px 0 50px 0;
+  width: 1000px;
+  height: 200px;
+  background:darkblue
+}
